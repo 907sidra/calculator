@@ -3,12 +3,12 @@ import inquirer from "inquirer"
 
 const answer = await inquirer.prompt([
     { 
-      message: "Enter first number",
+      message: "Enter your first number",
        type: "number", 
        name: "firstnumber" 
       },
     {
-       message: "Enter second number",
+       message: "Enter your second number",
         type: "number",
          name: "secondnumber" 
         },
@@ -37,3 +37,4 @@ const answer = await inquirer.prompt([
   else {
     console.log("please select valid operator")
   }
+  console.log("THE END");
